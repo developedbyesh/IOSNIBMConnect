@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33182B8D706E1AD7C2976927 /* Pods_NIBM_Connect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBBDD8BFFC14CADE4BE356C2 /* Pods_NIBM_Connect.framework */; };
+		F484BDFB229A66EC0054F6D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F484BDFA229A66EC0054F6D1 /* AppDelegate.swift */; };
+		F484BDFD229A66EC0054F6D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F484BDFC229A66EC0054F6D1 /* ViewController.swift */; };
+		F484BE00229A66EC0054F6D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F484BDFE229A66EC0054F6D1 /* Main.storyboard */; };
+		F484BE02229A674E0054F6D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F484BE01229A674E0054F6D1 /* Assets.xcassets */; };
+		F484BE05229A674E0054F6D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F484BE03229A674E0054F6D1 /* LaunchScreen.storyboard */; };
+		F484BE0D229A69CF0054F6D1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F484BE0C229A69CE0054F6D1 /* GoogleService-Info.plist */; };
+		F484BE11229A7DA80054F6D1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F484BE10229A7DA80054F6D1 /* LoginViewController.swift */; };
+		F484BE13229A86390054F6D1 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F484BE12229A86390054F6D1 /* ResetPasswordViewController.swift */; };
+		F484BE15229A8E8D0054F6D1 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F484BE14229A8E8D0054F6D1 /* Home.storyboard */; };
+		F484BE17229A96CE0054F6D1 /* StudentsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F484BE16229A96CE0054F6D1 /* StudentsTableViewCell.swift */; };
+		F484BE19229A98010054F6D1 /* StudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F484BE18229A98010054F6D1 /* StudentViewController.swift */; };
+		F484BE1C229A99DB0054F6D1 /* StudentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F484BE1B229A99DB0054F6D1 /* StudentModel.swift */; };
+		F484BE1E229AA4770054F6D1 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F484BE1D229AA4770054F6D1 /* TabBarViewController.swift */; };
+		F4F61F3D22A699EF003DC930 /* StudentDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F61F3C22A699EF003DC930 /* StudentDetailViewController.swift */; };
+		F4F61F3F22A6A628003DC930 /* HomeworkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F61F3E22A6A628003DC930 /* HomeworkTableViewCell.swift */; };
+		F4F61F4122A6A74C003DC930 /* HomeworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F61F4022A6A74C003DC930 /* HomeworkViewController.swift */; };
+		F4F61F4322A6A932003DC930 /* NewHomeworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F61F4222A6A932003DC930 /* NewHomeworkViewController.swift */; };
+		F4F61F4522A6B39A003DC930 /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F61F4422A6B39A003DC930 /* MyProfileViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		060B492906792BA017F55C7A /* Pods-NIBM Connect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBM Connect.debug.xcconfig"; path = "Target Support Files/Pods-NIBM Connect/Pods-NIBM Connect.debug.xcconfig"; sourceTree = "<group>"; };
+		143DBC90127EE33F350FC404 /* Pods-NIBM Connect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBM Connect.release.xcconfig"; path = "Target Support Files/Pods-NIBM Connect/Pods-NIBM Connect.release.xcconfig"; sourceTree = "<group>"; };
+		DBBDD8BFFC14CADE4BE356C2 /* Pods_NIBM_Connect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NIBM_Connect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F484BDF7229A66EC0054F6D1 /* NIBM Connect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NIBM Connect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F484BDFA229A66EC0054F6D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F484BDFC229A66EC0054F6D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F484BDFF229A66EC0054F6D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F484BE01229A674E0054F6D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F484BE04229A674E0054F6D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F484BE06229A674E0054F6D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F484BE0C229A69CE0054F6D1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F484BE10229A7DA80054F6D1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F484BE12229A86390054F6D1 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		F484BE14229A8E8D0054F6D1 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		F484BE16229A96CE0054F6D1 /* StudentsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsTableViewCell.swift; sourceTree = "<group>"; };
+		F484BE18229A98010054F6D1 /* StudentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentViewController.swift; sourceTree = "<group>"; };
+		F484BE1B229A99DB0054F6D1 /* StudentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentModel.swift; sourceTree = "<group>"; };
+		F484BE1D229AA4770054F6D1 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		F4F61F3C22A699EF003DC930 /* StudentDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentDetailViewController.swift; sourceTree = "<group>"; };
+		F4F61F3E22A6A628003DC930 /* HomeworkTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworkTableViewCell.swift; sourceTree = "<group>"; };
+		F4F61F4022A6A74C003DC930 /* HomeworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworkViewController.swift; sourceTree = "<group>"; };
+		F4F61F4222A6A932003DC930 /* NewHomeworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewHomeworkViewController.swift; sourceTree = "<group>"; };
+		F4F61F4422A6B39A003DC930 /* MyProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F484BDF4229A66EC0054F6D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33182B8D706E1AD7C2976927 /* Pods_NIBM_Connect.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47269949C3FFC9F614781690 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				060B492906792BA017F55C7A /* Pods-NIBM Connect.debug.xcconfig */,
+				143DBC90127EE33F350FC404 /* Pods-NIBM Connect.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5100B33508933CD8DAA89792 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBBDD8BFFC14CADE4BE356C2 /* Pods_NIBM_Connect.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F484BDEE229A66EC0054F6D1 = {
+			isa = PBXGroup;
+			children = (
+				F484BDF9229A66EC0054F6D1 /* NIBM Connect */,
+				F484BDF8229A66EC0054F6D1 /* Products */,
+				47269949C3FFC9F614781690 /* Pods */,
+				5100B33508933CD8DAA89792 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F484BDF8229A66EC0054F6D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F484BDF7229A66EC0054F6D1 /* NIBM Connect.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F484BDF9229A66EC0054F6D1 /* NIBM Connect */ = {
+			isa = PBXGroup;
+			children = (
+				F484BE1A229A99A50054F6D1 /* Model */,
+				F484BE0F229A70B30054F6D1 /* Controllers */,
+				F484BE0E229A70A60054F6D1 /* Storyboard */,
+				F484BDFA229A66EC0054F6D1 /* AppDelegate.swift */,
+				F484BE01229A674E0054F6D1 /* Assets.xcassets */,
+				F484BE0C229A69CE0054F6D1 /* GoogleService-Info.plist */,
+				F484BE06229A674E0054F6D1 /* Info.plist */,
+			);
+			path = "NIBM Connect";
+			sourceTree = "<group>";
+		};
+		F484BE0E229A70A60054F6D1 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				F484BE03229A674E0054F6D1 /* LaunchScreen.storyboard */,
+				F484BDFE229A66EC0054F6D1 /* Main.storyboard */,
+				F484BE14229A8E8D0054F6D1 /* Home.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		F484BE0F229A70B30054F6D1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F484BDFC229A66EC0054F6D1 /* ViewController.swift */,
+				F484BE10229A7DA80054F6D1 /* LoginViewController.swift */,
+				F484BE12229A86390054F6D1 /* ResetPasswordViewController.swift */,
+				F484BE16229A96CE0054F6D1 /* StudentsTableViewCell.swift */,
+				F484BE18229A98010054F6D1 /* StudentViewController.swift */,
+				F484BE1D229AA4770054F6D1 /* TabBarViewController.swift */,
+				F4F61F3C22A699EF003DC930 /* StudentDetailViewController.swift */,
+				F4F61F3E22A6A628003DC930 /* HomeworkTableViewCell.swift */,
+				F4F61F4022A6A74C003DC930 /* HomeworkViewController.swift */,
+				F4F61F4222A6A932003DC930 /* NewHomeworkViewController.swift */,
+				F4F61F4422A6B39A003DC930 /* MyProfileViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F484BE1A229A99A50054F6D1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F484BE1B229A99DB0054F6D1 /* StudentModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F484BDF6229A66EC0054F6D1 /* NIBM Connect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F484BE09229A674E0054F6D1 /* Build configuration list for PBXNativeTarget "NIBM Connect" */;
+			buildPhases = (
+				98D1407994EA07BAE149294B /* [CP] Check Pods Manifest.lock */,
+				F484BDF3229A66EC0054F6D1 /* Sources */,
+				F484BDF4229A66EC0054F6D1 /* Frameworks */,
+				F484BDF5229A66EC0054F6D1 /* Resources */,
+				FB5E69949607BC224C41CE1F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NIBM Connect";
+			productName = "NIBM Connect";
+			productReference = F484BDF7229A66EC0054F6D1 /* NIBM Connect.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F484BDEF229A66EC0054F6D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Imesh Gunasekara";
+				TargetAttributes = {
+					F484BDF6229A66EC0054F6D1 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = F484BDF2229A66EC0054F6D1 /* Build configuration list for PBXProject "NIBM Connect" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F484BDEE229A66EC0054F6D1;
+			productRefGroup = F484BDF8229A66EC0054F6D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F484BDF6229A66EC0054F6D1 /* NIBM Connect */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F484BDF5229A66EC0054F6D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F484BE05229A674E0054F6D1 /* LaunchScreen.storyboard in Resources */,
+				F484BE15229A8E8D0054F6D1 /* Home.storyboard in Resources */,
+				F484BE02229A674E0054F6D1 /* Assets.xcassets in Resources */,
+				F484BE00229A66EC0054F6D1 /* Main.storyboard in Resources */,
+				F484BE0D229A69CF0054F6D1 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		98D1407994EA07BAE149294B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NIBM Connect-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB5E69949607BC224C41CE1F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NIBM Connect/Pods-NIBM Connect-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NIBM Connect/Pods-NIBM Connect-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F484BDF3229A66EC0054F6D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4F61F4522A6B39A003DC930 /* MyProfileViewController.swift in Sources */,
+				F484BE1E229AA4770054F6D1 /* TabBarViewController.swift in Sources */,
+				F484BE1C229A99DB0054F6D1 /* StudentModel.swift in Sources */,
+				F4F61F3D22A699EF003DC930 /* StudentDetailViewController.swift in Sources */,
+				F4F61F4122A6A74C003DC930 /* HomeworkViewController.swift in Sources */,
+				F4F61F3F22A6A628003DC930 /* HomeworkTableViewCell.swift in Sources */,
+				F484BE19229A98010054F6D1 /* StudentViewController.swift in Sources */,
+				F484BE11229A7DA80054F6D1 /* LoginViewController.swift in Sources */,
+				F484BDFD229A66EC0054F6D1 /* ViewController.swift in Sources */,
+				F484BE17229A96CE0054F6D1 /* StudentsTableViewCell.swift in Sources */,
+				F484BDFB229A66EC0054F6D1 /* AppDelegate.swift in Sources */,
+				F484BE13229A86390054F6D1 /* ResetPasswordViewController.swift in Sources */,
+				F4F61F4322A6A932003DC930 /* NewHomeworkViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F484BDFE229A66EC0054F6D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F484BDFF229A66EC0054F6D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F484BE03229A674E0054F6D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F484BE04229A674E0054F6D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F484BE07229A674E0054F6D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F484BE08229A674E0054F6D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F484BE0A229A674E0054F6D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 060B492906792BA017F55C7A /* Pods-NIBM Connect.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "NIBM Connect/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eshwanted.NIBM-Connect";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F484BE0B229A674E0054F6D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 143DBC90127EE33F350FC404 /* Pods-NIBM Connect.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "NIBM Connect/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eshwanted.NIBM-Connect";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F484BDF2229A66EC0054F6D1 /* Build configuration list for PBXProject "NIBM Connect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F484BE07229A674E0054F6D1 /* Debug */,
+				F484BE08229A674E0054F6D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F484BE09229A674E0054F6D1 /* Build configuration list for PBXNativeTarget "NIBM Connect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F484BE0A229A674E0054F6D1 /* Debug */,
+				F484BE0B229A674E0054F6D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F484BDEF229A66EC0054F6D1 /* Project object */;
+}
